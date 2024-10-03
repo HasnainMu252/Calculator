@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the background color -->
+    <solid android:color="#6F7FD7" /> <!-- Replace with your desired color -->
+
+    <!-- Define rounded corners with a specific radius -->
+    <corners
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"/> <!-- Set your preferred corner radius here -->
+
+    <!-- Optional: Add padding around the shape -->
+    <padding
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp" />
+</shape>
