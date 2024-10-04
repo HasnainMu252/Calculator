@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Set the background color -->
-    <solid android:color="#2F3456" /> <!-- Replace with your desired color -->
+    <solid android:color="#616A9D" /> <!-- Replace with your desired color -->
 
     <!-- Define rounded corners with a specific radius -->
     <corners android:radius="250dp" /> <!-- Set your preferred corner radius here -->

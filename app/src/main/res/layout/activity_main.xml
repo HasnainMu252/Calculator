@@ -15,12 +15,14 @@
         android:background="@drawable/shape"
 
 
+
         android:orientation="vertical">
         <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Calculator"
-            android:textSize="44dp"
+            android:textSize="24dp"
             android:textColor="@color/white"
             android:textAllCaps="true"
             android:textStyle="bold"
@@ -45,109 +47,153 @@
    <LinearLayout
 
     style="@style/buttonRow"
+       android:layout_margin="15dp"
 
        >
     <Button android:id="@+id/allclear"
         style="@style/buttonNum"
         android:text="AC"
-        android:textColor="@color/white" android:textSize="44dp"
+        android:textColor="@color/white"
+        android:textSize="44dp"
         android:gravity="center"
         />
-       <Button style="@style/buttonNum" android:text=" "
-           android:textColor="@color/white" android:textSize="44dp"
+       <Button style="@style/buttonNum"
+           android:text=" "
+           android:textColor="@color/white"
+           android:textSize="44dp"
            android:gravity="center"/>
        <Button android:id="@+id/divide"
-           style="@style/buttonNum" android:text="%"
-           android:textColor="@color/white" android:textSize="44dp"
+           style="@style/buttonNum"
+           android:text="%"
+           android:textColor="@color/white"
+           android:textSize="44dp"
            android:gravity="center"/>
 
    </LinearLayout>
     <LinearLayout
 
     style="@style/buttonRow"
+        android:layout_margin="5dp"
        >
     <Button android:id="@+id/seven"
          style="@style/buttonNum"
+
+        android:layout_marginRight="10dp"
         android:text="7"
-        android:textColor="@color/white" android:textSize="44dp"
+        android:textColor="@color/white"
+        android:textSize="44dp"
         android:gravity="center"
         android:background="@drawable/butonshape"/>
-       <Button android:id="@+id/eight"
-           style="@style/buttonNum" android:text="8"
-           android:textColor="@color/white" android:textSize="44dp"
-           android:gravity="center"
-           android:background="@drawable/butonshape"/>
+
+        <Button
+            android:id="@+id/eight"
+            style="@style/buttonNum"
+            android:layout_height="84dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/butonshape"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textSize="44dp" />
        <Button android:id="@+id/nine"
            style="@style/buttonNum"
-           android:background="@drawable/butonshape" android:text="9"
-           android:textColor="@color/white" android:textSize="44dp"
+           android:layout_marginRight="10dp"
+           android:background="@drawable/butonshape"
+           android:text="9"
+           android:textColor="@color/white"
+           android:textSize="44dp"
            android:gravity="center"/>
-       <Button android:id="@+id/multiply"
-           style="@style/buttonNum" android:text="X"
-           android:textColor="@color/white" android:textSize="44dp"
+       <Button
+           android:id="@+id/multiply"
+           android:layout_marginRight="10dp"
+           style="@style/buttonNum"
+           android:text="X"
+           android:textColor="@color/white"
+           android:textSize="44dp"
            android:gravity="center"/>
 
    </LinearLayout>
     <LinearLayout
-
+        android:layout_margin="5dp"
     style="@style/buttonRow"
        >
     <Button android:id="@+id/four"
-        style="@style/buttonNum"  android:text="4"
-        android:textColor="@color/white" android:textSize="44dp"
-        android:background="@drawable/butonshape" android:gravity="center"/>
-       <Button android:id="@+id/five"
-            style="@style/buttonNum"  android:text="5"
-           android:textColor="@color/white" android:textSize="44dp"
-           android:background="@drawable/butonshape" android:gravity="center"/>
+        android:layout_marginRight="10dp"
+        style="@style/buttonNum"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="44dp"
+        android:background="@drawable/butonshape"
+        android:gravity="center"/>
+
+        <Button
+            android:id="@+id/five"
+            style="@style/buttonNum"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/butonshape"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="44dp" />
        <Button android:id="@+id/six"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="6"
            android:background="@drawable/butonshape"  android:textColor="@color/white" android:textSize="44dp"
            android:gravity="center"/>
        <Button android:id="@+id/minus"
-           style="@style/buttonNum"  android:text="--"
+           android:layout_marginRight="10dp"
+           style="@style/buttonNum"  android:text="-"
            android:textColor="@color/white" android:textSize="44dp"
            android:gravity="center"/>
 
    </LinearLayout><LinearLayout
-
+    android:layout_margin="5dp"
     style="@style/buttonRow"
        >
     <Button android:id="@+id/one"
+        android:layout_marginRight="10dp"
         style="@style/buttonNum"  android:text="1"
         android:background="@drawable/butonshape" android:textColor="@color/white" android:textSize="44dp"
         android:gravity="center"/>
        <Button android:id="@+id/two"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="2"
            android:background="@drawable/butonshape" android:textColor="@color/white" android:textSize="44dp"
            android:gravity="center"/>
        <Button android:id="@+id/three"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="3"
            android:background="@drawable/butonshape"  android:textColor="@color/white" android:textSize="44dp"
            android:gravity="center"/>
        <Button  android:id="@+id/plus"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="+"
            android:textColor="@color/white" android:textSize="44dp"
            android:gravity="center"/>
 
    </LinearLayout>
     <LinearLayout
-
     style="@style/buttonRow"
+        android:layout_marginBottom="50dp"
+
        >
     <Button android:id="@+id/zero"
+        android:layout_marginRight="10dp"
         style="@style/buttonNum"  android:text="0"
         android:background="@drawable/butonshape" android:textColor="@color/white" android:textSize="44dp"
         android:gravity="center"/>
        <Button android:id="@+id/dot"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="."
            android:textColor="@color/white" android:textSize="44dp"
            android:background="@drawable/butonshape"  android:gravity="center"/>
        <Button android:id="@+id/clear"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="Clear"
-           android:textColor="@color/white" android:textSize="44dp"
+           android:textColor="@color/white" android:textSize="18dp"
            android:gravity="center"/>
        <Button android:id="@+id/answer"
+           android:layout_marginRight="10dp"
            style="@style/buttonNum"  android:text="="
            android:textColor="#F44D18" android:textSize="44dp"
            android:gravity="center"/>
